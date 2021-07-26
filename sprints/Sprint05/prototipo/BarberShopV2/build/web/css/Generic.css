@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/05/2020, 15:25:22
+    Author     : hight
+*/
+
+.bg-primary {
+    background-color: #f4623a !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+.page-section {
+    padding: 8rem 0;
+}
+
+@font-face{
+    font-family: Lobster;
+    src: url('../vendor/fonts/Lobster-Regular.ttf');
+}
+
+h1{
+    font-family: Lobster;
+
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+
+}
+.btn{
+    display: block;
+}
+.lateral-menu{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+.menu-icon{
+    display: none;
+}
+.menu-desc{
+  cursor: pointer;   
+}
+@media only screen and (max-width: 765px) {
+    .menu-desc{
+        display: none;
+    }
+    .menu-icon{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .lateral-menu .btn{
+        display: inline-block;
+        max-width: 70px;
+    }
+    .lateral-menu {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+}
+
+
